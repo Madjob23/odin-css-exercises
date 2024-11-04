@@ -32,6 +32,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 8px 20px;
 }
 
 input {
@@ -45,6 +46,13 @@ input {
   display: flex;
   justify-content: space-between;
   padding: 16px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
 }
 
 .footer {
